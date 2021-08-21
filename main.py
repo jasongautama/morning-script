@@ -18,7 +18,7 @@ def openWebPages():
     constURL = "https://"
     URLs = ["gmail.com", "calendar.google.com",
             "www.youtube.com/watch?v=dQw4w9WgXcQ",
-            "open.spotify.com/track/1F7iIQGzyVMcie8L95BfW1?si=8eed53356ca14820"]
+            "open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT?si=7deeeaf35bf04f1a"]
 
     for url in URLs:
         webbrowser.get().open_new(constURL + url)
